@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* div demacation test */
+
+
+body {
+    background-color: hsl(211, 62%, 90%);
+    color: hsl(217, 19%, 35%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+
+    width: 300px;
+    height: 510px;
+    margin: 150px auto;
+
+}
+
+img.card1 {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px 2px 4px 0 hsl(217, 19%, 35%);
+}
+
+.card2 {
+    width: 300px;
+    height: 260px;
+    background-color:hsl(210, 46%, 95%);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 4px 0px hsl(217, 19%, 35%);
+    
+}
+
+.card2 .post {
+    padding: 20px;
+    text-align:left;
+}
+
+.card2 .post .header {
+    font-weight: 700;
+}
+
+.card2 .post .content {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    width: 300px;
+    height: 60px;
+}
+
+.dp {
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    align-items: center;
+}
+
+.dp img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.avatar-profile {
+    padding: 8px 0px;
+    width: 150px;
+    height: 60px;
+    text-align: left;
+    white-space: nowrap;
+    
+}
+
+.name {
+    font-weight: 700;
+    }
+.date {
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.share-icon {
+    padding: 5px;
+    align-items: center;
+    width: 50px;
+    align-items: center;
+    
+}
+
+.share-icon i {
+    background-color: hsl(211, 62%, 90%);
+    color: hsl(217, 19%, 35%);
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+/* .share-icon .icon i {
+    color: hsl(217, 87%, 50%);
+    font-size: 19px;
+} */
