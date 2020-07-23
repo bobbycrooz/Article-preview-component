@@ -210,6 +210,12 @@ img.card1 {
         position: relative;
     }
 
+
+    #share-icon2 {
+     visibility: hidden; 
+     width: 0px;       
+    }
+
     .tootlip {
         /* visibility: visible; */
         width: 200px;
