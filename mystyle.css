@@ -15,7 +15,7 @@ body {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     height: 70vh;
     width: 300px;
     height: 510px;
@@ -180,7 +180,99 @@ img.card1 {
     margin-top: 5px;
 }
 
-/* .share-icon .icon i {
-    color: hsl(217, 87%, 50%);
-    font-size: 19px;
-} */
+@media only screen and (min-width:600px){
+    .container{
+        flex-direction: row;
+        width: 700px;
+        height: 300px;
+        align-items: center;
+    }
+
+    img.card1 {
+        border-radius: 10px 0 0 10px;
+        height: 251px;
+        box-shadow: 0px;
+    }
+    .card2{
+        margin-top: 2px;
+        border-radius: 0px 10px 10px 0px;
+        width: 380px;
+        box-shadow: 0px;
+        
+    }
+    .footer {
+        width: 380px;
+        margin-top: 20px;
+        
+    }
+    #share-icon {
+        margin-left: 60px;
+        position: relative;
+    }
+
+    .tootlip {
+        /* visibility: visible; */
+        width: 200px;
+        height: 40px;
+        position: relative;
+        border-radius:10px;
+        background-color: hsl(217, 19%, 35%);
+        z-index: 1;
+        margin-top: -40px;
+        margin-left: -33%;
+        box-shadow: 0 5px 15px 0 hsl(217, 19%, 35%);
+    }
+    .tootlip::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+        border-style: solid;
+        border-width: 10px;
+
+    }
+
+    .tootlip .share {
+        padding: 3px;
+        
+        width: 80px;
+    
+        
+        margin-top: 7px;
+    }
+    
+    .tootlip .share p {
+        margin: auto;
+    }
+
+    #share-icon:hover .tootlip {
+        visibility: visible;
+    }
+    
+    .social-sites-icons {
+        padding: 8px ;
+        width: auto;
+        height: auto;
+        margin-top: 2px;
+        
+    }
+
+    .social-sites-icons i {
+        font-size: 15px;
+        /* margin-left: 3px; */
+        color: #fff;
+        margin: 3px;
+    }
+
+   
+    
+    .card2 .post {
+        padding: 20px;
+        text-align:left;
+        
+        width: 350px;
+    }
+
+  
+}
