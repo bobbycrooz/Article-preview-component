@@ -17,7 +17,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 70vh;
-    ;
     width: 300px;
     height: 510px;
     margin: 150px auto;
@@ -71,6 +70,7 @@ img.card1 {
     height: 70px;
     visibility: hidden;
     position: absolute;
+    margin-top:3px;
     border-radius: 0px 0px 10px 10px;
     background-color: hsl(217, 19%, 35%);
 }
