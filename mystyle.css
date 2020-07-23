@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* div demacation test */
-
 
 body {
     background-color: hsl(211, 62%, 90%);
@@ -19,7 +17,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 70vh;
-
+    ;
     width: 300px;
     height: 510px;
     margin: 150px auto;
@@ -35,7 +33,8 @@ img.card1 {
 
 .card2 {
     width: 300px;
-    height: 260px;
+    height: 250px;
+    margin-top:-10px;
     background-color:hsl(210, 46%, 95%);
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 2px 4px 0px hsl(217, 19%, 35%);
@@ -45,6 +44,7 @@ img.card1 {
 .card2 .post {
     padding: 20px;
     text-align:left;
+    
 }
 
 .card2 .post .header {
@@ -59,8 +59,73 @@ img.card1 {
 .footer {
     display: flex;
     width: 300px;
-    height: 60px;
+    height: 70px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 7px;
 }
+
+.tootlip {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    visibility: hidden;
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.tootlip .share {
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    color: hsl(212, 23%, 69%);
+    
+    margin-top: 7px;
+}
+
+.tootlip .share p {
+    margin: 10px auto;
+}
+
+.social-sites-icons {
+    padding: 8px ;
+    width: 150px;
+    height: 60px;
+    margin-top: 7px;
+    
+}
+
+.social-sites-icons i {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+    margin: 13px 9px;
+}
+
+
+#share-icon2 {
+    padding: 5px;
+    align-items: center;
+    width: 50px;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    
+}
+
+#share-icon2 i {
+    background-color: hsl(211, 62%, 90%);
+    color: hsl(217, 19%, 35%);
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 5px;
+}
+
 
 .dp {
     padding: 10px;
@@ -94,15 +159,18 @@ img.card1 {
     margin-top: 5px;
 }
 
-.share-icon {
+#share-icon {
     padding: 5px;
     align-items: center;
     width: 50px;
     align-items: center;
+    border: none;
+    background-color: transparent;
+    outline: none;
     
 }
 
-.share-icon i {
+#share-icon  i {
     background-color: hsl(211, 62%, 90%);
     color: hsl(217, 19%, 35%);
     border-radius: 50%;

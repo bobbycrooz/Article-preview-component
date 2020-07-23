@@ -64,12 +64,26 @@
             <p class="date">28 Jun 2020</p>
           </div>
 
-          <div class="share-icon">
-            <a href="#"><i class="fas fa-share"></i></a>
-          </div>
+          
+            <button id="share-icon" type="button" onclick="showSocialsitePane()" ><i class="fas fa-share"></i></button>
+          
+              <div class="tootlip">
+                <div class="share"><p>S H A R E</p></div>
 
-          <!-- <div class="share"><p>Share</p></div>
-          <div class="social-sites-icons"></div> -->
+                <div class="social-sites-icons">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-pinterest"></i>
+                </div>
+
+                <button id="share-icon" type="button" onclick="closeSocialsitePane()">
+                  <i class="fas fa-share"></i>
+                </button>
+          
+              </div>
+
+
+          
           <!-- afterthen we write a script that changes the display picture and avater-profile and background-color of footer without touching the share cion -->
           <!-- i'll be create just two div for share and socialsites icons, so they replace the previous div when clicked -->
         </div>
@@ -77,6 +91,8 @@
     </div>
 
   </div>
+
+  <script src="script.js"></script>
   
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
